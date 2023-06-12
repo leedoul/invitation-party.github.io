@@ -1,1 +1,0 @@
-# invitation-party.github.io
