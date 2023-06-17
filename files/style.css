@@ -78,16 +78,31 @@ padding: 0;
     animation: focus-in-contract-bck 2.5s cubic-bezier(.25, .46, .45, .94) both;
 }
 #container2 {
-    top:930px;
-    height: 35%;
+    top:1000px;
+    height: 30%;
+}
+#background6 {
+    width: 30%;
+    margin-bottom: 30px;
+}
+#background7 {
+    width: 50%;
+    margin-bottom: 10%;}
+#background8 {
+    width: 10%;
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+#background9 {
+    width: 50%;
+    margin-top: 15%;
 }
 #drop{
-    top: 945px;
+    top: 440px;
 }
 #container3 {
-    margin-top: 50px;
     height: 20%;
-    top: 2560px;
+    top: 2400px;
 }
 #wave{
     width: 460px;
@@ -110,12 +125,11 @@ padding: 0;
 }
 #container4 {
     width: 100%;
-    height: 1000px;
-    top: 3490px;
+    height: 25%;
+    top: 3400px;
 }
 #location{
-    top: 180px;
-    margin-top: 30px;
+    top: 100px;
     margin-bottom: 50px;
     width: 55%;
 }
@@ -142,54 +156,6 @@ padding: 0;
 }
 .content-image {
     position: absolute;
-}
-
-#background2 {
-    height: 10px;
-    margin-top: 30%;
-    width: 40%;
-}
-
-#background3 {
-    height: 10%;
-    width:50%;
-    margin-bottom: 0px;
-    margin-top: 30%;
-}
-#background4 {
-    height: 10%;
-    width: 12%;
-    margin-bottom: 0%;
-    margin-top: 4%;
-}
-#background5 {
-    height: 30%;
-    width: 50%;
-    margin-bottom: 10%;
-    margin-top: 4%;
-}
-#background6 {
-    height: 25%;
-    width: 30%;
-    margin-top: 15%;
-}
-#background7 {
-    height: 30%;
-    width: 50%;
-    margin-bottom: 10%;
-    margin-top: 0;
-}
-#background8 {
-    height: 10%;
-    width: 10%;
-    margin-bottom: 10%;
-    margin-top: 10%;
-}
-#background9 {
-    height: 50%;
-    width: 50%;
-    margin-bottom: 10%;
-    margin-top: 15%;
 }
 #circle1 {
     width: 50%;
