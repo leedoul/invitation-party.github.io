@@ -1,0 +1,207 @@
+/*Style.CSS*/
+/* All logos and logo sizes are edited in this CSS*/
+
+.tile {
+    background-image: url("../tile.png");
+    background-repeat: repeat;
+}
+
+#preloader h1 {
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 100px;
+}
+
+
+@keyframes focus-in-contract-bck {
+    0% {
+        letter-spacing: 1em;
+        transform: translateZ(300px);
+        filter: blur(12px);
+        opacity: 0
+    }
+
+    100% {
+        transform: translateZ(12px);
+        filter: blur(0);
+        opacity: 1
+    }
+}
+
+.background-container {
+position: relative;
+margin: 0;
+z-index: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 0;
+}
+
+
+
+
+
+
+/* Custom */
+#main-background{
+    width: 100%;
+    height: 100%;
+}
+#container1 {
+    width: 100%;
+    height: 20%;
+    top: 0;
+}
+#line{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 4px;
+    height: 10%;
+}
+#content-image1 {
+    width: 15%;
+    animation: focus-in-contract-bck 1s cubic-bezier(.25, .46, .45, .94) both;
+}
+#content-image2 {
+    width: 20%;
+    bottom: 0;
+    top : 0;
+    padding: 0;
+    animation: focus-in-contract-bck 2s cubic-bezier(.25, .46, .45, .94) both;
+}
+#content-image3 {
+    width: 25%;
+    bottom: 0;
+    animation: focus-in-contract-bck 2.5s cubic-bezier(.25, .46, .45, .94) both;
+}
+#container2 {
+    top:1000px;
+    height: 30%;
+}
+#background6 {
+    width: 30%;
+    margin-bottom: 30px;
+}
+#background7 {
+    width: 50%;
+    margin-bottom: 10%;}
+#background8 {
+    width: 10%;
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+#background9 {
+    width: 50%;
+    margin-top: 15%;
+}
+#drop{
+    top: 560px;
+}
+#container3 {
+    height: 20%;
+    top: 2400px;
+}
+#wave{
+    width: 460px;
+}
+#title{
+    width: 40%;
+    position: relative;
+}
+#time{
+    width: 15%;
+    top: 665px;
+    position: absolute;
+}
+#circle1 {
+    width: 50%;
+    left: 210px;
+    top: 25px;
+}
+#circle2 {
+    width: 50%;
+    right: 210px;
+}
+#circle3 {
+    width: 25%;
+    left: 210px;
+}
+#container4 {
+    width: 100%;
+    height: 23%;
+    top: 3400px;
+}
+#location{
+    top: 100px;
+    margin-bottom: 50px;
+    width: 55%;
+}
+#gumi-address{
+    float: left;
+    position: relative;
+    height: 30%;
+    top:170px;
+}
+#gumi-map{
+    top: 20px; 
+    width: 600px;
+}
+#seoul-address{
+    height: 30%;
+    bottom: 140px;
+}
+#seoul-map{
+    bottom: 150px;
+    height: 50%; 
+}
+#background1{
+    height: 100%;
+}
+.content-image {
+    position: absolute;
+}
+#circle1 {
+    width: 50%;
+}
+#address {
+    margin-bottom: 7%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.gallery-on {
+    margin: 0px;
+    z-index: 1;
+}
+
+/* .horizontal-box{max-width:960px; width:100%; height:800px; border:1px solid #ccc; margin:0 auto;} */
+.horizontal-box{
+    margin-top: 45%;
+}
+#horizontal-tab ul {
+    white-space: nowrap;
+    overflow-x: auto;
+    text-align: center;
+    padding: 0;
+    margin:0;
+}
+
+#horizontal-tab ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    background: white;
+    margin-right: 10px;
+    margin:0;
+}
+
+#mani{
+    touch-action: manipulation;
+}
+.btnCarousel{
+    height: 250px;
+    width: 70px;
+    margin-top: 200px;
+}
